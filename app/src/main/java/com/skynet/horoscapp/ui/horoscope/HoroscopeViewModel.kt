@@ -3,7 +3,6 @@ package com.skynet.horoscapp.ui.horoscope
 import androidx.lifecycle.ViewModel
 import com.skynet.horoscapp.data.provider.HoroscopeProvider
 import com.skynet.horoscapp.domain.model.HoroscopeInfo
-import com.skynet.horoscapp.domain.model.HoroscopeInfo.*
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
