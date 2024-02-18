@@ -46,7 +46,7 @@ android {
 }
 
 dependencies {
-    val navVersion = "2.7.1"
+    val navVersion = "2.7.7"
 
     //NavComponentes
     implementation("androidx.navigation:navigation-fragment-ktx:$navVersion")
