@@ -6,6 +6,10 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.skynet.horoscapp.databinding.FragmentHoroscopeBinding
+import dagger.hilt.android.AndroidEntryPoint
+
+//recibir cosas injectadas
+@AndroidEntryPoint
 
 class HoroscopeFragment : Fragment() {
 

@@ -7,6 +7,10 @@ import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupWithNavController
 import com.skynet.horoscapp.R
 import com.skynet.horoscapp.databinding.ActivityMainBinding
+import dagger.hilt.android.AndroidEntryPoint
+
+//recibir cosas injectadas
+@AndroidEntryPoint
 
 class MainActivity : AppCompatActivity() {
 

@@ -8,6 +8,10 @@ import androidx.fragment.app.Fragment
 import com.skynet.horoscapp.R
 import com.skynet.horoscapp.databinding.FragmentHoroscopeBinding
 import com.skynet.horoscapp.databinding.FragmentLuckBinding
+import dagger.hilt.android.AndroidEntryPoint
+
+//recibir cosas injectadas
+@AndroidEntryPoint
 
 class LuckFragment : Fragment() {
 

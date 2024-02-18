@@ -6,6 +6,10 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.skynet.horoscapp.databinding.FragmentPalmistryBinding
+import dagger.hilt.android.AndroidEntryPoint
+
+//recibir cosas injectadas
+@AndroidEntryPoint
 
 class PalmistryFragment : Fragment() {
 
