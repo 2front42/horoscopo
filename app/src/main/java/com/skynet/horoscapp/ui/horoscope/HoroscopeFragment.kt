@@ -1,7 +1,6 @@
 package com.skynet.horoscapp.ui.horoscope
 
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -11,7 +10,6 @@ import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
 import androidx.recyclerview.widget.GridLayoutManager
-import androidx.recyclerview.widget.LinearLayoutManager
 import com.skynet.horoscapp.databinding.FragmentHoroscopeBinding
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch
