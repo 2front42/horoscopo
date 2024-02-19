@@ -6,7 +6,10 @@ import androidx.recyclerview.widget.RecyclerView
 import com.skynet.horoscapp.R
 import com.skynet.horoscapp.domain.model.HoroscopeInfo
 
-class HoroscopeAdapter(private var horoscopeList: List<HoroscopeInfo> = emptyList()) :
+class HoroscopeAdapter(
+    private var horoscopeList: List<HoroscopeInfo> = emptyList(),
+    private val onItemSelected: (HoroscopeInfo) -> Unit
+) :
     RecyclerView.Adapter<HoroscopeViewHolder>() {
 
     fun updateList(list: List<HoroscopeInfo>) {
@@ -24,7 +27,7 @@ class HoroscopeAdapter(private var horoscopeList: List<HoroscopeInfo> = emptyLis
 
     override fun onBindViewHolder(holder: HoroscopeViewHolder, position: Int) {
         //lo que tiene que pintar
-        holder.render(horoscopeList[position])
+        holder.render(horoscopeList[position], onItemSelected)
     }
 }
 
